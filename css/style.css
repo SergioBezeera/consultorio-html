@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #7d3d32;
+    padding: 10px 20px 0px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li{
+    margin-bottom: 17px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #f5deb3;
+}
+
+.header {
+    background-color: rgb(255 145 77);
+    min-height: 150px;
+}
+.content {
+    background-color: #ddd9d9;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h1{
+    font-family: monospace;
+}
+
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: rgb(255 145 77);
+    min-height: 150px;
+    color: #7d3d32;
+    text-align: center;
+}
+
+#logoSobreConta{
+    text-align: center;
+}
+
+table{
+    border: 1px solid;
+}
+
+table tbody tr th{
+    border: 0.1px #000000;
+    border-style: solid;
+}
+
+table thead tr th {
+    border: 1px solid #000000;
+    background: #000000;
+    color: #f5deb3;
+}
+
+.endereco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco .texto {
+    
+    text-align: justify;
+}
+
+#iframe{
+    margin-left: 7%;
+}
+
+
